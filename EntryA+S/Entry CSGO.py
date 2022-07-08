@@ -20,8 +20,8 @@ colors = ['lightcoral', 'darkorange', 'olive', 'teal', 'violet',
 #Màu text
 plt.rcParams['text.color'] = "Black"
 
-#Ảnh backgorund
-img = plt.imread("Backround.png")
+#Ảnh background
+img = plt.imread("Background.png")
 fig, ax = plt.subplots()
 ax.imshow(img,zorder=0, extent=[0.05, 0.3, 0.3, 0.7],aspect='auto', alpha = 0.3)
 
@@ -45,9 +45,9 @@ ax.text(0.06, 0.65, "Entry hiệu quà nhưng ít khi entry", size=10,
         bbox=dict(boxstyle="round,pad=0.3"))
 ax.text(0.06, 0.33, "Entry ít mà đ hiệu quả", size=10,
         bbox=dict(boxstyle="round,pad=0.3"))
-ax.text(0.25, 0.33, "Entry nhiều mà đ hiệu quả", size=10,
+ax.text(0.265, 0.33, "Entry nhiều mà đ hiệu quả", size=10,
         bbox=dict(boxstyle="round,pad=0.3"))
-ax.text(0.247, 0.65, "Entry lắm mà hiệu quả thì tốt", size=10,
+ax.text(0.19, 0.65, "Entry lắm mà hiệu quả thì tốt", size=10,
         bbox=dict(boxstyle="round,pad=0.3"))
 
 #Visualization
